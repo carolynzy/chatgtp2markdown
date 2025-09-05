@@ -6,45 +6,45 @@ ChatGPT → Markdown Exporter is a Chrome extension that allows users to export 
 
 **Data Collection**
 
-No personal data is collected.
+* No personal data is collected.
 
-No conversation content is transmitted, stored, or shared.
+* No conversation content is transmitted, stored, or shared.
 
-The extension does not use analytics, ads, tracking, or third-party services.
+* The extension does not use analytics, ads, tracking, or third-party services.
 
 **Data Access & Usage**
 
-The extension only runs on chatgpt.com and chat.openai.com.
+* The extension only runs on chatgpt.com and chat.openai.com.
 
-It reads the visible conversation content on those pages solely for the purpose of converting it into a Markdown file.
+* It reads the visible conversation content on those pages solely for the purpose of converting it into a Markdown file.
 
-The processed data is saved directly to your device using the Chrome Downloads API.
+* The processed data is saved directly to your device using the Chrome Downloads API.
 
 **Local Storage**
 
-User preferences (such as highlight style, filename pattern, or whether to include YAML front matter) are stored locally using chrome.storage.local.
+* User preferences (such as highlight style, filename pattern, or whether to include YAML front matter) are stored locally using chrome.storage.local.
 
-These settings never leave your device and are not synced to the cloud.
+* These settings never leave your device and are not synced to the cloud.
 
 **Images**
 
-If conversations contain images, the exported Markdown may include links to those image URLs.
+* If conversations contain images, the exported Markdown may include links to those image URLs.
 
-When you open the Markdown file in an editor or viewer, that program may fetch the images from their original servers.
+* When you open the Markdown file in an editor or viewer, that program may fetch the images from their original servers.
 
-This behavior is part of your viewer software, not the extension itself. You can configure the extension to convert images into links or omit them entirely.
+* This behavior is part of your viewer software, not the extension itself. You can configure the extension to convert images into links or omit them entirely.
 
 **Permissions**
 
-The extension requests the following Chrome permissions:
+* The extension requests the following Chrome permissions:
 
-scripting: to inject the exporter script into ChatGPT pages.
+* scripting: to inject the exporter script into ChatGPT pages.
 
-downloads: to save Markdown files locally.
+* downloads: to save Markdown files locally.
 
-storage: to remember your export settings.
+* storage: to remember your export settings.
 
-These permissions are used exclusively for the features described above.
+* These permissions are used exclusively for the features described above.
 
 **Remote Code**
 
